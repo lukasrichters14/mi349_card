@@ -1,0 +1,56 @@
+body {
+    background-color: #ccc;
+    font-family: Geneva, Tahoma, sans-serif;
+    color: #222;
+    margin-top: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.card {
+    margin: 0 auto;
+    background-color: #f3f3f3f3;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow:  rgba(0, 0, 0, 0.1) 0 10px 10px;
+}
+
+.card .avatar {
+    box-shadow:  rgba(0, 0, 0, 0.1) 0 10px 10px;
+    border-radius: 50%;
+    width: 90px;
+    margin-top: -50px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+li a img {
+    opacity: 0.9;
+}
+
+li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out;
+}
